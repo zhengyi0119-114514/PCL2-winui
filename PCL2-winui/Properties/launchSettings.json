@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PCL2-winui (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PCL2-winui (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

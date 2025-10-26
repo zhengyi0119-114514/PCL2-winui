@@ -1,51 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Package
-  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
-  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
-  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
-  IgnorableNamespaces="uap rescap">
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+    xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+    xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+    xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap">
 
-  <Identity
-    Name="192313b2-3a5f-42f7-bce8-5f832e477a8f"
-    Publisher="CN=zheng"
-    Version="1.0.0.0" />
+    <Identity Name="192313b2-3a5f-42f7-bce8-5f832e477a8f" Publisher="CN=zheng" Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="192313b2-3a5f-42f7-bce8-5f832e477a8f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+    <mp:PhoneIdentity PhoneProductId="192313b2-3a5f-42f7-bce8-5f832e477a8f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
-  <Properties>
-    <DisplayName>PCL2-winui</DisplayName>
-    <PublisherDisplayName>zheng</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
-  </Properties>
+    <Properties>
+        <DisplayName>PCL2-winui</DisplayName>
+        <PublisherDisplayName>zheng</PublisherDisplayName>
+        <Logo>Assets\StoreLogo.png</Logo>
+    </Properties>
 
-  <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-  </Dependencies>
+    <Dependencies>
+        <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+        <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+    </Dependencies>
 
-  <Resources>
-    <Resource Language="x-generate"/>
-  </Resources>
+    <Resources>
+        <Resource Language="en-US"/>
+        <Resource Language="zh-CN"/>
+    </Resources>
 
-  <Applications>
-    <Application Id="App"
-      Executable="$targetnametoken$.exe"
-      EntryPoint="$targetentrypoint$">
-      <uap:VisualElements
-        DisplayName="PCL2-winui"
-        Description="PCL2-winui"
-        BackgroundColor="transparent"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
-      </uap:VisualElements>
-    </Application>
-  </Applications>
+    <Applications>
+        <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="$targetentrypoint$">
+            <uap:VisualElements DisplayName="PCL2-winui" Description="PCL2-winui" BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png">
+                <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+                <uap:SplashScreen Image="Assets\SplashScreen.png" />
+            </uap:VisualElements>
+        </Application>
+    </Applications>
 
-  <Capabilities>
-    <rescap:Capability Name="runFullTrust" />
-  </Capabilities>
+    <Capabilities>
+        <rescap:Capability Name="runFullTrust" />
+    </Capabilities>
 </Package>

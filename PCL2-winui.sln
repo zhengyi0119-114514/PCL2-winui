@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL2-winui", "PCL2-winui\PCL2-winui.csproj", "{123549EC-A2BB-49B8-B48F-79D78142BAE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftLauncherLinrary", "MinecraftLauncherLinrary\MinecraftLauncherLinrary.csproj", "{D98F6F01-E281-468F-B47E-16E4732ACCBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{175EC2D6-7462-4E5F-951E-4F7F301F743B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,30 @@ Global
 		{123549EC-A2BB-49B8-B48F-79D78142BAE4}.Release|x86.ActiveCfg = Release|x86
 		{123549EC-A2BB-49B8-B48F-79D78142BAE4}.Release|x86.Build.0 = Release|x86
 		{123549EC-A2BB-49B8-B48F-79D78142BAE4}.Release|x86.Deploy.0 = Release|x86
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Debug|x64.Build.0 = Debug|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Debug|x86.Build.0 = Debug|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Release|ARM64.Build.0 = Release|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Release|x64.ActiveCfg = Release|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Release|x64.Build.0 = Release|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Release|x86.ActiveCfg = Release|Any CPU
+		{D98F6F01-E281-468F-B47E-16E4732ACCBE}.Release|x86.Build.0 = Release|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Debug|x64.Build.0 = Debug|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Debug|x86.Build.0 = Debug|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Release|ARM64.Build.0 = Release|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Release|x64.ActiveCfg = Release|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Release|x64.Build.0 = Release|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Release|x86.ActiveCfg = Release|Any CPU
+		{175EC2D6-7462-4E5F-951E-4F7F301F743B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
